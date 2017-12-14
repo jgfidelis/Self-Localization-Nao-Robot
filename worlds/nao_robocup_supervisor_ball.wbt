@@ -1,0 +1,178 @@
+#VRML_SIM V8.5 utf8
+WorldInfo {
+  info [
+    "Simulation of the Robocup Standard Platform League"
+  ]
+  title "Robocup"
+  basicTimeStep 20
+  FPS 20
+  contactProperties [
+    ContactProperties {
+      material1 "NAO foot material"
+      coulombFriction [
+        7
+      ]
+      bounce 0.3
+      bounceVelocity 0.003
+    }
+  ]
+}
+Viewpoint {
+  orientation -0.71035417 0.6796767 0.18285661 1.1045811
+  position 4.4521454 1.3967762 -0.41791652
+}
+Background {
+  skyColor [
+    0.333333 0.666667 1
+  ]
+}
+DirectionalLight {
+  ambientIntensity 1
+  direction -0.5 -2 -0.5
+  intensity 0.3
+}
+DirectionalLight {
+  ambientIntensity 1
+  direction 0.5 -0.5 0.5
+  intensity 0.5
+  castShadows TRUE
+}
+RobotstadiumSoccerField {
+  postRadius 0.04
+}
+Supervisor {
+  controller "my_controller_supervisor"
+}
+SoccerBall {
+  translation 3.4339999 0.066411402 -1.9134013
+  rotation -0.65983322 0.70357646 0.26381865 2.9367328
+  radius 0.067
+}
+DEF PLAYER Nao {
+  hidden position_0_0 1.73469e-11
+  hidden position2_0_0 -2.56489e-07
+  hidden position_0_1 1.4
+  hidden position2_0_1 2.48674e-10
+  hidden position_0_2 1.49797
+  hidden position2_0_2 0.349
+  hidden position_0_3 -8.94997e-06
+  hidden position_0_4 -1.08555e-05
+  hidden translation_11 1.9807179e-08 2.0738822e-08 0.12638593
+  hidden rotation_11 0.008021242 0.99996781 0.00018387212 -1.1234018e-07
+  hidden translation_18 1.6410811e-08 -0.097999982 0.099903066
+  hidden rotation_18 0.061333988 0.9981173 -1.4858643e-05 9.3030841e-06
+  hidden position_18_0 1.396
+  hidden translation_19 0.105 -0.014999992 -5.5101553e-05
+  hidden rotation_19 0.057653142 0.99833666 0.00018170492 2.8843561e-06
+  hidden position_19_0 1.396
+  hidden translation_20 7.9162663e-09 8.0326341e-09 -4.428989e-05
+  hidden rotation_20 0.0028814731 0.99984365 0.017446416 3.1767276e-06
+  hidden position_20_0 5.48969e-07
+  hidden translation_21 0.05595 5.6844374e-09 -3.1346915e-05
+  hidden rotation_21 -0.012835658 0.9999176 0.00017679592 1.0916369e-06
+  hidden position_21_0 -2.21235e-11
+  hidden position_21_1 -2.21393e-11
+  hidden position_21_2 2.26213e-09
+  hidden translation_22 0.069 -0.013 -0.0050001649
+  hidden rotation_22 -4.2512785e-13 -1 -3.0620865e-13 -0.96
+  hidden position_22_0 1.07511e-09
+  hidden translation_23 0.014000085 1.9918289e-11 -6.3004715e-08
+  hidden rotation_23 -1.6318706e-13 -1 -1.9696649e-13 -0.96
+  hidden position_23_0 5.20901e-10
+  hidden translation_24 0.014000051 9.960921e-12 1.8807218e-08
+  hidden rotation_24 -2.8490117e-14 -1 -6.0218431e-14 -0.96
+  hidden translation_25 0.069 0.013 -0.0050001649
+  hidden rotation_25 -4.239633e-13 -1 -3.0533712e-13 -0.96
+  hidden position_25_0 1.2169e-09
+  hidden translation_26 0.014000085 1.9918733e-11 -6.3004716e-08
+  hidden rotation_26 -1.6276632e-13 -1 -2.0006193e-13 -0.96
+  hidden position_26_0 5.23106e-10
+  hidden translation_27 0.014000051 9.9600328e-12 1.8807221e-08
+  hidden rotation_27 -3.0173078e-14 -1 -5.9677479e-14 -0.96
+  hidden translation_28 0.049 1.9912072e-11 -0.026000102
+  hidden rotation_28 -3.6435921e-05 0.99999998 0.00018150616 1.2879526e-09
+  hidden position_28_0 2.93104e-10
+  hidden translation_29 0.014 9.9600328e-12 -5.4941346e-08
+  hidden rotation_29 3.0496146e-14 1 -5.8843512e-14 -0.96
+  hidden translation_30 1.6414533e-08 0.098000018 0.099903066
+  hidden rotation_30 -0.061341272 0.99811684 0.00017072952 9.3030973e-06
+  hidden position_30_0 -1.396
+  hidden translation_31 0.105 0.015000008 -5.5101566e-05
+  hidden rotation_31 -0.055100635 0.99848079 0.00018111315 2.8839404e-06
+  hidden position_31_0 -1.396
+  hidden translation_32 7.9179863e-09 8.0632971e-09 -4.4289901e-05
+  hidden rotation_32 -0.002891948 0.99962144 0.02736091 3.1774346e-06
+  hidden position_32_0 -2.73366e-07
+  hidden translation_33 0.05595 5.706799e-09 -3.1346921e-05
+  hidden rotation_33 -0.004395162 0.99999032 0.00018655298 1.0915578e-06
+  hidden position_33_0 -2.21407e-11
+  hidden position_33_1 -2.2141e-11
+  hidden position_33_2 2.43109e-09
+  hidden translation_34 0.069 -0.013 -0.0050001649
+  hidden rotation_34 -4.2617218e-13 -1 -3.072605e-13 -0.96
+  hidden position_34_0 1.55177e-09
+  hidden translation_35 0.014000085 2.0000002e-11 -6.3004729e-08
+  hidden rotation_35 -1.6300675e-13 -1 -1.9807844e-13 -0.96
+  hidden position_35_0 5.63269e-10
+  hidden translation_36 0.014000051 1.0002221e-11 1.8807225e-08
+  hidden rotation_36 -2.8970963e-14 -1 -6.0823245e-14 -0.96
+  hidden translation_37 0.069 0.013 -0.0050001649
+  hidden rotation_37 -4.2533822e-13 -1 -3.0885331e-13 -0.96
+  hidden position_37_0 1.55177e-09
+  hidden translation_38 0.014000085 1.9997337e-11 -6.3004732e-08
+  hidden rotation_38 -1.6601203e-13 -1 -2.0321748e-13 -0.96
+  hidden position_38_0 5.6328e-10
+  hidden translation_39 0.014000051 1.0002221e-11 1.8807225e-08
+  hidden rotation_39 -3.1134769e-14 -1 -5.8839756e-14 -0.96
+  hidden translation_40 0.049 1.9999558e-11 -0.026000102
+  hidden rotation_40 -3.739095e-05 0.99999998 0.00018203457 1.2879496e-09
+  hidden position_40_0 3.77403e-10
+  hidden translation_41 0.014 1.0000001e-11 -5.4941362e-08
+  hidden rotation_41 2.9549481e-14 1 -5.9669966e-14 -0.96
+  hidden translation_42 -3.3042749e-07 -0.050000097 -0.084754832
+  hidden rotation_42 0.43020112 0.75415748 -0.49615874 -7.0478769e-06
+  hidden position_42_0 0.0229928
+  hidden translation_43 -3.3216534e-07 -9.9946484e-08 0.00025680917
+  hidden rotation_43 0.10495031 0.99447608 -0.0016636034 -8.7549922e-06
+  hidden position_43_0 -0.524005
+  hidden translation_44 -3.348463e-07 -1.0408872e-07 0.00028024528
+  hidden rotation_44 0.348849 0.9371773 -0.0017557136 -8.3392271e-06
+  hidden position_44_0 1.049
+  hidden translation_45 -3.4446778e-07 -1.1642661e-07 -0.099654768
+  hidden rotation_45 0.35936334 0.93319613 -0.0017250829 -8.464213e-06
+  hidden position_45_0 -0.525018
+  hidden translation_46 -3.5118682e-07 -1.2626219e-07 -0.1025045
+  hidden rotation_46 0.35999366 0.93295326 -0.0016658861 -8.7286728e-06
+  hidden position_46_0 -0.023006
+  hidden translation_47 -3.5311565e-07 -1.3155127e-07 0.00041787343
+  hidden rotation_47 0.097430733 0.99524093 -0.001655259 -8.7820239e-06
+  hidden translation_48 0.019801138 -0.0079587386 -0.037472553
+  hidden rotation_48 1.9539087e-06 -1.0999872e-06 1 -3.1415781
+  hidden translation_52 2.4532597e-07 0.050000007 -0.084762246
+  hidden rotation_52 -0.46643004 0.74830036 0.47168802 -7.329305e-06
+  hidden position_52_0 0.0230085
+  hidden translation_53 2.4359835e-07 8.0626701e-09 0.00024939638
+  hidden rotation_53 -0.075534655 0.9971424 -0.0012417825 -8.8872515e-06
+  hidden position_53_0 -0.524004
+  hidden translation_54 2.4090445e-07 3.6136663e-09 0.00027283247
+  hidden rotation_54 -0.38787874 0.92170949 -0.001305118 -8.4970282e-06
+  hidden position_54_0 1.049
+  hidden translation_55 2.3125253e-07 -7.5566389e-09 -0.099662182
+  hidden rotation_55 -0.40166985 0.91578363 -0.0012961058 -8.5631306e-06
+  hidden position_55_0 -0.524017
+  hidden translation_56 2.2448945e-07 -1.585797e-08 -0.10251192
+  hidden rotation_56 -0.40534726 0.91416191 -0.0012636119 -8.7673594e-06
+  hidden position_56_0 -0.0229989
+  hidden translation_57 2.2246654e-07 -1.8345748e-08 0.00041046065
+  hidden rotation_57 0.0087527505 0.9999609 -0.0012621564 -8.7793559e-06
+  hidden translation_58 0.02016881 0.0079568415 -0.037418175
+  hidden rotation_58 2.803478e-06 -3.0413263e-06 1 -3.1415758
+  translation 2.999952 0.32777845 -2.0000068
+  rotation 0.98890911 0.10492035 0.10512127 -1.5819852
+  color 0.8 0.8 0.8
+  controller "my_controller2"
+  controllerArgs "9559"
+  synchronization FALSE
+  jersey NaoJersey {
+  }
+}

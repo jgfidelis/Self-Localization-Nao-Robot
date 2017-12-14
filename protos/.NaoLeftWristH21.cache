@@ -1,0 +1,7 @@
+Webots Proto Cache File version 1.2
+protoFileHash: e44ea38f6804da2e21cf942bc1c0d420
+containsDevices: 0
+baseType: Solid
+slotType: 
+parameters: version,contactMaterial,color,handSlot
+info: tags:\shidden

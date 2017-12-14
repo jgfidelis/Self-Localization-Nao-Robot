@@ -1,0 +1,7 @@
+Webots Proto Cache File version 1.2
+protoFileHash: 1fdfb382fdb43ef03a087f5416cc8810
+containsDevices: 1
+baseType: Robot
+slotType: 
+parameters: translation,rotation,version,degreeOfFreedom,color,controller,controllerArgs,synchronization,selfCollision,gpsAccuracy,cameraWidth,cameraHeight,jersey,channel,contactMaterial,footContactMaterial,fingerContactMaterial,fingerRadius,fingerTorque,bodySlot,headSlot,leftFootSlot,rightFootSlot,leftHandSlot,rightHandSlot
+info: Generic\smodel\sof\sNao\srobot\nModel\sdesigned\sby\sCyberbotics\sLtd.\saccording\sto\sthe\sonline\sdocumentation\sprovided\sby\sAldebaran\sRobotics.
